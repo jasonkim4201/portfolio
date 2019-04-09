@@ -1,0 +1,1 @@
+//  list stuff about my self and area for pic
