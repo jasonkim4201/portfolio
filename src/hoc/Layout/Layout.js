@@ -12,6 +12,7 @@ class Layout extends Component {
     return (
       <Auxiliary>
         <Navbar/>
+        <h1>cheers from layout page</h1>
       </Auxiliary>
     )
   }
