@@ -6,11 +6,11 @@ import NavbarLinks from "./NavbarLinks/NavbarLinks";
 const Navbar = (props) => (
   <header className="navbar">
     <ul className="navbar__nav">
-      <NavbarLinks link ="/" exact>Home</NavbarLinks>
-      <NavbarLinks link ="/about">About</NavbarLinks>
-      <NavbarLinks>Skills</NavbarLinks>
-      <NavbarLinks>Projects</NavbarLinks>
-      <NavbarLinks>Contact</NavbarLinks>
+      <NavbarLinks link="/" exact>Home</NavbarLinks>
+      <NavbarLinks link="/about">About</NavbarLinks>
+      <NavbarLinks link="skills">Skills</NavbarLinks>
+      <NavbarLinks link="/projects">Projects</NavbarLinks>
+      <NavbarLinks link="/contact">Contact</NavbarLinks>
     </ul>
   </header>
 )

@@ -11,17 +11,19 @@ class App extends Component {
   state = {}
 
   render() {
-    return (
-      <div>
-        <Layout>
-          <Switch>
+    let routes = (
+      <Switch>
             <Route exact path="/" component={Home}/>
             <Route exact path="/about" component={About}/>
             <Route exact path="/skills" component={Skills} />
             <Route expact path="/projects" component={Projects}/>
             <Route expact path="/contact" component={Contact}/>
           </Switch>
-          {/* routes for links here */}
+    );
+    return (
+      <div>
+        <Layout>
+          {routes}
         </Layout>
       </div>
     );

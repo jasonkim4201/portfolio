@@ -4,3 +4,11 @@
 
 // Maybe add a form here to leave comments or whatever. Maybe make a mongo database to store in all the comments. Or SQL hmm....
   // We'll see. last thing i want is to get spammed but i can always look into adding spam filters and what not
+
+  import React from "react";
+
+  const Contact = (props) => (
+    <h1>MY CONTACT INFO OKAY PLS REMEMBER</h1>
+  )
+
+  export default Contact;

@@ -12,6 +12,7 @@ class Layout extends Component {
     return (
       <Auxiliary>
         <Navbar/>
+        <main>{this.props.children}</main>
       </Auxiliary>
     )
   }
