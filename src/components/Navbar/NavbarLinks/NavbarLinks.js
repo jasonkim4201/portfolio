@@ -1,10 +1,12 @@
 import React from "react";
-import classes from "./NavbarLinks.module.css";
+import { NavLink } from "react-router-dom";
 
 
 const NavbarLinks = (props) => (
-  <li className={classes.NavbarLinks}>
-    <a href="/">{props.children}</a>
+  <li className="navbar__navbarLinks">
+    <NavLink to={props.link} exact={process.exact}>
+      {props.children}
+    </NavLink>
   </li>
 )
 

@@ -1,0 +1,30 @@
+.navbar {
+    background-color: aqua;
+    height: 7rem;
+    
+    &__nav {
+    height: 100%;
+    display: flex;
+    font-size: 1.8rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0 10rem;
+    /* media query at 700px and below use jusify content space-evenly */
+    }
+    
+    &__navbarLinks {
+      list-style: none;
+      
+    }
+   /*  &__navbarLinks:not(:last-child) {
+      margin-right: 2rem;
+    } */
+    &__navbarLinks a {
+      text-decoration: none;
+      margin: 0 2rem;
+      padding: .5rem;
+      /* media query at 700px and below  remove margin and add left/right padding of .5rem */
+    }
+    
+    
+}
