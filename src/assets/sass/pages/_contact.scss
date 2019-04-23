@@ -25,12 +25,23 @@
     margin: 3rem;
   }
 
+  &__link,
+  &__link:active,
+  &__link:visited {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+
   &__text p {
     font-size: 1.7rem;
   }
 
   &__methods {
     font-size: 1.5rem;
+    & p {
+      font-weight: 700;
+    }
   }
 
   &__icon {
