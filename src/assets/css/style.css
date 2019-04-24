@@ -9,7 +9,10 @@ html {
   font-size: 62.5%; }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background-image: url("./../images/kelly-kiernan-776658-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 body {
   font-family: "Lato", sans-serif;
@@ -35,7 +38,7 @@ body {
   margin-top: 10rem !important; }
 
 .navbar {
-  background-color: #2998ff;
+  /* background-color: $color-blue-light; */
   height: 12vh;
   /*  &__navbarLinks:not(:last-child) {
       margin-right: 2rem;
@@ -50,11 +53,28 @@ body {
     /* media query at 700px and below use jusify content space-evenly */ }
   .navbar__navbarLinks {
     list-style: none; }
+  .navbar__navbarLinks:hover {
+    background-color: rgba(255, 255, 255, 0.15); }
   .navbar__navbarLinks a {
+    color: #fff;
     text-decoration: none;
     margin: 0 2rem;
     padding: .5rem;
     /* media query at 700px and below  remove margin and add left/right padding of .5rem */ }
+
+.about {
+  background-color: steelblue;
+  padding: 3rem;
+  height: 88vh; }
+  .about__header {
+    font-size: 3.5rem; }
+  .about__pic {
+    height: 31rem;
+    width: 31rem;
+    margin: 0 3rem 0 0;
+    float: left; }
+  .about__bio {
+    font-size: 1.8rem; }
 
 .contact {
   height: 88vh;

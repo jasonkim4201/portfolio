@@ -1,5 +1,5 @@
 .navbar {
-    background-color: $color-blue-light;
+    /* background-color: $color-blue-light; */
     height: 12vh;
     
     &__nav {
@@ -13,13 +13,17 @@
     }
     
     &__navbarLinks {
-      list-style: none;
-      
+      list-style: none;   
+    }
+
+    &__navbarLinks:hover {
+      background-color: rgba($color-white, .15);
     }
    /*  &__navbarLinks:not(:last-child) {
       margin-right: 2rem;
     } */
     &__navbarLinks a {
+      color: $color-white;
       text-decoration: none;
       margin: 0 2rem;
       padding: .5rem;
