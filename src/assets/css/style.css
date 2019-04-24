@@ -9,10 +9,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  box-sizing: border-box;
-  background-image: url("./../images/kelly-kiernan-776658-unsplash.jpg");
-  background-size: cover;
-  background-repeat: no-repeat; }
+  box-sizing: border-box; }
 
 body {
   font-family: "Lato", sans-serif;
@@ -56,14 +53,21 @@ body {
   .navbar__navbarLinks:hover {
     background-color: rgba(255, 255, 255, 0.15); }
   .navbar__navbarLinks a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     margin: 0 2rem;
     padding: .5rem;
     /* media query at 700px and below  remove margin and add left/right padding of .5rem */ }
 
+.background {
+  background-image: url("./../images/kelly-kiernan-776658-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; }
+
 .about {
-  background-color: steelblue;
+  background-color: rgba(70, 130, 180, 0.93);
   padding: 3rem;
   height: 88vh; }
   .about__header {
@@ -79,10 +83,11 @@ body {
 .contact {
   height: 88vh;
   /* note to self use a function here later to subtract 100vh from navbar vh */
-  background: steelblue;
+  background: rgba(70, 130, 180, 0.93);
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin: 0; }
   .contact__container {
     /* media query 1200px and below width of 75% */
     height: 45rem;

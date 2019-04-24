@@ -1,10 +1,11 @@
 .contact {
   
   height: 88vh; /* note to self use a function here later to subtract 100vh from navbar vh */
-  background: steelblue;
+  background: $color-blue-steel;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
 
   &__container {
     /* media query 1200px and below width of 75% */
