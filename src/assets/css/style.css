@@ -67,14 +67,27 @@ body {
     /* media query at 700px and below  remove margin and add left/right padding of .5rem */ }
 
 .background {
-  background-image: url("./../images/kelly-kiernan-776658-unsplash.jpg");
+  background-image: linear-gradient(to right bottom, #4a148c, #6a1b9a), url("./../images/kelly-kiernan-776658-unsplash.jpg");
+  background-blend-mode: overlay;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh; }
 
+.home {
+  font-size: 3rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50rem;
+  text-align: center; }
+  .home__description {
+    font-size: 2rem; }
+
 .about__container {
-  background-color: rgba(70, 130, 180, 0.93); }
+  background-color: rgba(13, 71, 161, 0.93); }
 
 .about__header {
   font-size: 3.5rem; }
@@ -91,7 +104,7 @@ body {
 .contact {
   height: 88vh;
   /* note to self use a function here later to subtract 100vh from navbar vh */
-  background: rgba(70, 130, 180, 0.93);
+  background: rgba(13, 71, 161, 0.93);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,7 +113,7 @@ body {
     /* media query 1200px and below width of 75% */
     height: 45rem;
     width: 66%;
-    background-color: #fff;
+    background-color: #eee;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.85); }
   .contact__card {
     display: flex;
@@ -131,7 +144,7 @@ body {
 
 .skills__container {
   font-size: 1.5rem;
-  background-color: rgba(70, 130, 180, 0.93); }
+  background-color: rgba(13, 71, 161, 0.93); }
 
 .skills__title {
   font-size: 2.7rem; }

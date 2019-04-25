@@ -4,9 +4,13 @@
 import React from "react";
 
 const Home = (props) => (
-  <div>
-    <h1>HOME PAAAAAAAAAGE</h1>
-  </div>
+  <section className="home">
+    <div>
+    <h1 className="home__header u-margin-bottom-small">Jason Kim</h1>
+    <div className="home__description">Coding began as a simple curiosity and now it has become a passion I enjoy doing</div>
+    </div>
+    
+  </section>
 );
 
 export default Home;

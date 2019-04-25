@@ -39,7 +39,7 @@ const Skills = (props) => {
 
         </div>
 
-        <h1 className="skills__title u-margin-bottom-tiny">Skills in progress</h1>
+        <h1 className="skills__title u-margin-bottom-tiny">Future roadmap</h1>
         <h4 className="u-margin-bottom-medium">As programming is a constantly evolving field I also do my best to stay to constantly learn new skills</h4>
 
         <div className="skills__inProgress">

@@ -1,5 +1,6 @@
 .background {
-  background-image: url("./../images/kelly-kiernan-776658-unsplash.jpg");
+  background-image: linear-gradient(to right bottom, /* #6a1b9a */ #4a148c , /* #9933CC */ #6a1b9a), url("./../images/kelly-kiernan-776658-unsplash.jpg");
+  background-blend-mode: overlay;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
