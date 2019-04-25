@@ -6,47 +6,18 @@
 // We'll see. last thing i want is to get spammed but i can always look into adding spam filters and what not
 
 import React from "react";
+import ContactCard from "../../components/ContactCard/ContactCard";
 
 const Contact = (props) => (
   <section className="contact">
-    <div className="contact__container">
+    <div className="container contact__container">
+
       <div className="contact__text u-center-text">
         <h1 className="u-margin-bottom-small">Contact me!</h1>
         <p className="u-margin-bottom-medium">Also feel free to browse through my Github and LinkedIn page!</p>
       </div>
 
-      <div className="contact__card">
-
-        <div className="contact__info u-center-text">
-          <div className="contact__methods">
-            <i className="contact__icon far fa-envelope"></i>
-            <p>jasonkim4201@gmail.com</p>
-          </div>
-
-          <div className="contact__methods">
-            <a href="https://github.com/jasonkim4201" className="contact__link">
-              <i className="contact__icon fab fa-github"></i>
-            </a>
-            <p>Github</p>
-          </div>
-
-          <div className="contact__methods">
-            <a href="https://www.linkedin.com/in/jason-kim-899604104/" className="contact__link">
-              <i className="contact__icon fab fa-linkedin"></i>
-            </a>
-            <p>LinkedIn</p>
-          </div>
-          <div className="contact__methods">
-            <i className="contact__icon fas fa-phone"></i>
-            <p>(856)316-2181</p>
-          </div>
-
-
-        </div>
-
-
-
-      </div>
+      <ContactCard />
 
     </div>
   </section>

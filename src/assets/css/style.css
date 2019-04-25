@@ -1,3 +1,4 @@
+/* $color-blue-steel: rgba(#0d47a1, .93); */
 *,
 *::after,
 *::before {
@@ -87,7 +88,7 @@ body {
     font-size: 2rem; }
 
 .about__container {
-  background-color: rgba(13, 71, 161, 0.93); }
+  background-color: rgba(159, 168, 218, 0.93); }
 
 .about__header {
   font-size: 3.5rem; }
@@ -104,7 +105,6 @@ body {
 .contact {
   height: 88vh;
   /* note to self use a function here later to subtract 100vh from navbar vh */
-  background: rgba(13, 71, 161, 0.93);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,7 +131,8 @@ body {
   .contact__methods {
     font-size: 1.5rem; }
     .contact__methods p {
-      font-weight: 700; }
+      font-weight: 700;
+      text-decoration: none; }
   .contact__icon {
     font-size: 7rem;
     margin-bottom: 1rem; }
@@ -144,7 +145,7 @@ body {
 
 .skills__container {
   font-size: 1.5rem;
-  background-color: rgba(13, 71, 161, 0.93); }
+  background-color: rgba(159, 168, 218, 0.93); }
 
 .skills__title {
   font-size: 2.7rem; }
