@@ -2,6 +2,7 @@
 
 import React from "react";
 import "../../assets/css/icon-font.css";
+import Skillset from "./Skillset/Skillset";
 
 const Skills = (props) => {
   return (
@@ -13,54 +14,20 @@ const Skills = (props) => {
         <h4 className="u-margin-bottom-medium">I have knowledge in the following areas</h4>
 
         <div className="skills__skillset u-margin-bottom-medium">
-          <div>
-            <i className="icon-basic-webpage-img-txt"></i>
-            <h2>Frontend</h2>
-            <p>HTML, CSS, JavaScript, SASS</p>
-          </div>
-
-          <div>
-            <i className="icon-basic-server2"></i>
-            <h2>Backend</h2>
-            <p>Node.js, MySql, Sequalize, MongoDB, Mongoose</p>
-          </div>
-
-          <div>
-            <i className="icon-basic-folder-multiple"></i>
-            <h2>Frameworks/Libraries</h2  >
-            <p>Bootstrap, MD Bootstrap, jQuery, React.js/Redux</p>
-          </div>
-
-          <div>
-            <i className="fas fa-code-branch"></i>
-            <h2>Version Control</h2>
-            <p>Git, Github</p>
-          </div>
-
+          <Skillset classProp="icon-basic-webpage-img-txt" type="Frontend" typeName="HTML, CSS, JavaScript, SASS"/>
+          <Skillset classProp="icon-basic-server2" type="Backend" typeName="Node.js, MySql, Sequalize, MongoDB, Mongoose" />
+          <Skillset classProp="icon-basic-folder-multiple" type="Frameworks/Libraries" typeName="Bootstrap, MD Bootstrap, jQuery, React.js/Redux" />
+          <Skillset classProp="fas fa-code-branch" type="Version Control" typeName="Git, Github" />
         </div>
 
         <h1 className="skills__title u-margin-bottom-tiny">Future roadmap</h1>
         <h4 className="u-margin-bottom-medium">As programming is a constantly evolving field I also do my best to stay to constantly learn new skills</h4>
 
         <div className="skills__inProgress">
-          <div>
-            <i className="fas fa-code"></i>
-            <h2>Languages</h2>
-            <p>Python, Java, C#</p>
-          </div>
-
-          <div>
-            <i className="icon-basic-server2"></i>
-            <h2>Backend</h2>
-            <p>GraphQL</p>
-          </div>
-
-          <div>
-            <i className="icon-basic-folder-multiple"></i>
-            <h2>Frameworks/Libraries</h2  >
-            <p>Angular, Vue.js</p>
-          </div>
-
+          <Skillset classProp="fas fa-code" type="Languages" typeName="Python, Java, C#" />
+          <Skillset classProp="icon-basic-server2" type="Backend" typeName="GrahpQL" />
+          <Skillset classProp="icon-basic-folder-multiple" type="Frameworks/Libraries" typeName="Angular, Vue.js" />
+        
         </div>
 
       </div>

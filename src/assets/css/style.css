@@ -61,7 +61,7 @@ body {
   .navbar__navbarLinks:hover {
     background-color: rgba(255, 255, 255, 0.15); }
   .navbar__navbarLinks a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
     margin: 0 2rem;
     padding: .5rem;
@@ -88,7 +88,7 @@ body {
     font-size: 2rem; }
 
 .about__container {
-  background-color: rgba(159, 168, 218, 0.93); }
+  background-color: rgba(26, 35, 126, 0.93); }
 
 .about__header {
   font-size: 3.5rem; }
@@ -145,7 +145,7 @@ body {
 
 .skills__container {
   font-size: 1.5rem;
-  background-color: rgba(159, 168, 218, 0.93); }
+  background-color: rgba(26, 35, 126, 0.93); }
 
 .skills__title {
   font-size: 2.7rem; }
