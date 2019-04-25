@@ -19,6 +19,9 @@ body {
 .u-center-text {
   text-align: center !important; }
 
+.u-margin-bottom-tiny {
+  margin-bottom: 1rem !important; }
+
 .u-margin-bottom-small {
   margin-bottom: 1.5rem !important; }
 
@@ -33,6 +36,10 @@ body {
 
 .u-margin-top-huge {
   margin-top: 10rem !important; }
+
+.container {
+  margin: 5rem;
+  padding: 2rem; }
 
 .navbar {
   /* background-color: $color-blue-light; */
@@ -66,19 +73,20 @@ body {
   background-position: center;
   height: 100vh; }
 
-.about {
-  background-color: rgba(70, 130, 180, 0.93);
-  padding: 3rem;
-  height: 88vh; }
-  .about__header {
-    font-size: 3.5rem; }
-  .about__pic {
-    height: 31rem;
-    width: 31rem;
-    margin: 0 3rem 0 0;
-    float: left; }
-  .about__bio {
-    font-size: 1.8rem; }
+.about__container {
+  background-color: rgba(70, 130, 180, 0.93); }
+
+.about__header {
+  font-size: 3.5rem; }
+
+.about__pic {
+  height: 31rem;
+  width: 31rem;
+  margin: 0 3rem 0 0;
+  float: left; }
+
+.about__bio {
+  font-size: 1.8rem; }
 
 .contact {
   height: 88vh;
@@ -120,3 +128,28 @@ body {
     grid-gap: 1.5rem;
     /* margin: 0 2rem;
     padding: 10rem; */ }
+
+.skills__container {
+  font-size: 1.5rem;
+  background-color: rgba(70, 130, 180, 0.93); }
+
+.skills__title {
+  font-size: 2.7rem; }
+
+.skills__skillset {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(4, 1fr); }
+
+.skills__skillset i {
+  font-size: 4.5rem;
+  margin-bottom: 1rem; }
+
+.skills__inProgress {
+  display: grid;
+  grid-gap: 5rem;
+  grid-template-columns: repeat(3, 1fr); }
+
+.skills__inProgress i {
+  font-size: 4.5rem;
+  margin-bottom: 1rem; }

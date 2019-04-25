@@ -1,0 +1,33 @@
+.skills {
+  &__container {
+    font-size: 1.5rem;
+    background-color: $color-blue-steel;
+  }
+
+  &__title {
+    font-size: 2.7rem;
+    
+  }
+
+  &__skillset {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  &__skillset i {
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+  }
+
+  &__inProgress {
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: repeat(3, 1fr);  
+  }
+
+  &__inProgress i {
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+  }
+}

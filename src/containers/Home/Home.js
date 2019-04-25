@@ -5,7 +5,6 @@ import React from "react";
 
 const Home = (props) => (
   <div>
-    <figure></figure>
     <h1>HOME PAAAAAAAAAGE</h1>
   </div>
 );

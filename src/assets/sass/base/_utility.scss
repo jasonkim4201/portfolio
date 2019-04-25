@@ -4,6 +4,10 @@
   text-align: center !important;
 }
 
+.u-margin-bottom-tiny {
+  margin-bottom: 1rem !important;
+}
+
 .u-margin-bottom-small {
   margin-bottom: 1.5rem !important;
 }
@@ -22,4 +26,9 @@
 
 .u-margin-top-huge {
   margin-top: 10rem !important;
+}
+
+.container {
+  margin: 5rem;
+  padding: 2rem;
 }
