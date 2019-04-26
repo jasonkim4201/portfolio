@@ -1,0 +1,36 @@
+.card {
+  /* perspective must be in parent element */
+  perspective: 100rem;
+  -moz-perspective: 100rem;
+  position: relative;
+  /* need to add this to prevent container collaspe */
+  height: 27rem;
+  
+
+  &__side {
+  height: 27rem;
+  transition: all 1.5s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  backface-visibility: hidden;
+  
+    
+    &--front {
+      background-color: steelblue
+    }
+    &--back {
+      background-color: seagreen;
+      transform: rotateY(-180deg);
+    }
+  }
+
+  &:hover &__side--front {
+    transform: rotateY(180deg);
+  }
+
+  &:hover &__side--back {
+    transform: rotateY(0);
+  }
+}

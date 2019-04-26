@@ -1,1 +1,0 @@
-// This will be within my cards or something and it will have the images, description, link, and github page with it 

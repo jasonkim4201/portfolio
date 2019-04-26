@@ -1,0 +1,15 @@
+.projects {
+  &__container {
+    background-color: $color-white;
+  }
+
+  &__title {}
+
+  &__works {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 3rem;
+  }
+
+
+}

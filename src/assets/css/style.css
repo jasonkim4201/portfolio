@@ -42,6 +42,31 @@ body {
   margin: 5rem;
   padding: 2rem; }
 
+.card {
+  /* perspective must be in parent element */
+  perspective: 100rem;
+  -moz-perspective: 100rem;
+  position: relative;
+  /* need to add this to prevent container collaspe */
+  height: 27rem; }
+  .card__side {
+    height: 27rem;
+    transition: all 1.5s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden; }
+    .card__side--front {
+      background-color: steelblue; }
+    .card__side--back {
+      background-color: seagreen;
+      transform: rotateY(-180deg); }
+  .card:hover .card__side--front {
+    transform: rotateY(180deg); }
+  .card:hover .card__side--back {
+    transform: rotateY(0); }
+
 .navbar {
   /* background-color: $color-blue-light; */
   height: 12vh;
@@ -167,3 +192,11 @@ body {
 .skills__inProgress i {
   font-size: 4.5rem;
   margin-bottom: 1rem; }
+
+.projects__container {
+  background-color: #fff; }
+
+.projects__works {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 3rem; }
