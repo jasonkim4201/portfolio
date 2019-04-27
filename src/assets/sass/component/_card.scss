@@ -5,24 +5,38 @@
   position: relative;
   /* need to add this to prevent container collaspe */
   height: 27rem;
+  font-size: 1.3rem;
+  width: 22rem;
   
+  &__container {
+    display: flex;
+    justify-content: center;
+  }
 
   &__side {
-  height: 27rem;
-  transition: all 1.5s ease;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  backface-visibility: hidden;
-  
-    
+    height: 27rem;
+    transition: all 1.5s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    box-shadow: 0 1.5rem 2rem rgba($color-black, .85);
+    border-radius: 3px;
+    overflow: hidden;
+
     &--front {
-      background-color: steelblue
+      background-color: steelblue;
+
     }
+
     &--back {
-      background-color: seagreen;
+
       transform: rotateY(-180deg);
+
+      &--1 {
+        background-image: linear-gradient(to right bottom, seagreen, orangered);
+      }
     }
   }
 
@@ -33,4 +47,38 @@
   &:hover &__side--back {
     transform: rotateY(0);
   }
+
+  &__picture {
+    background-size: cover;
+    height: 15rem;
+
+    &--1 {
+      background-image: url("./../images/profolio-images/big-burger.png");
+    }
+
+    &--2 {
+      background-image: url("./../images/profolio-images/lobster-nebula-1920628_1920.jpg");
+    }
+
+    &--3 {
+      background-image: url("./../images/profolio-images/cold-liquid-bar-foam-celebration-beverage-495781-pxhere.com.jpg");
+    }
+
+    &--4 {
+      background-image: url("./../images/profolio-images/alcohol-alcoholism-ale-background-bar-beer-1457325-pxhere.com.jpg");
+    }
+
+    &--5 {
+      background-image: url("./../images/profolio-images/blur-book-stack-books-590493.jpg");
+    }
+    &--6 {
+      background-image: url("./../images/profolio-images/depositphotos_52458995-stock-photo-global-finance.jpg");
+     }
+  }
+
+
+  &__side ul {
+    list-style: none;
+  }
+
 }
