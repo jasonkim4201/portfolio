@@ -12,11 +12,14 @@ const Cards = (props) => {
         &nbsp;
       </div>
 
-      <div className="card__heading">
-        {props.heading}
-      </div>
-      <div className="card__text u-center-text">
-      <p>Technologies used</p>
+      <h4 className="card__heading">
+        <span className="card__heading--span">
+          {props.heading}
+        </span>
+        
+      </h4>
+      <div className="card__text">
+      <p>Powered by:</p>
       <ul>
             <li>{props.tech1}</li>
             <li>{props.tech2}</li>
