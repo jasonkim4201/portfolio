@@ -53,7 +53,7 @@ class Projects extends Component {
             <Cards
               heading="Book Searcher"
               classProps="card__side card__side--back card__side--back--5"
-              tech1="React.js" tech2="Redux" tech3="Firebase" tech4="Node.js"
+              tech1="React.js" tech2="Express.js" tech3="MongoDb" tech4="Node.js"
               picClassProps="card__picture card__picture--5"
               description="Search any book and a get a small description of it. Get an idea what the book is before picking it up! Powered by Google Books."
               demo="https://cloudy-waffles-books.herokuapp.com/"
@@ -62,7 +62,7 @@ class Projects extends Component {
             <Cards
               heading="News Scrapper"
               classProps="card__side card__side--back card__side--back--6"
-              tech1="React.js" tech2="Redux" tech3="Firebase" tech4="Node.js"
+              tech1="jQuery" tech2="MongoDb" tech3="Bootstrap" tech4="Node.js"
               picClassProps="card__picture card__picture--6"
               description="Scrape all the latest financial news on Reuters and be up to date!"
               demo="https://quiet-caverns-11878.herokuapp.com/"

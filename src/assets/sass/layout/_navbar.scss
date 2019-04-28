@@ -32,3 +32,10 @@
     
     
 }
+ @media (max-width: 1000px) {
+   .navbar {
+     display: flex;
+     justify-content: center;
+     margin: 0;
+   }
+ }

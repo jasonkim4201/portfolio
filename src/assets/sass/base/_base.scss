@@ -9,6 +9,16 @@
 html {
   // used to make rem units easier
   font-size: 62.5%;
+
+  
+
+  @include repsonsive(tab-port) {
+    font-size: 55%;
+  }
+@include repsonsive(phone) {
+    font-size: 50%;
+  }
+  
 }
 
 body {

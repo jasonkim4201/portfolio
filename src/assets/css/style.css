@@ -1,4 +1,13 @@
 /* $color-blue-steel: rgba(#0d47a1, .93); */
+/* 
+ 0 - 600px:       Phone
+ 600 - 900px:     Tablet portrait
+ 900 - 1200px:    Tablet landscape
+[1200 - 1800px]:  Normal styling
+ 1800px+ :        Desktop big screen
+
+1 em = 16px
+*/
 *,
 *::after,
 *::before {
@@ -8,6 +17,12 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 62.5em) {
+    html {
+      font-size: 55%; } }
+  @media (max-width: 48em) {
+    html {
+      font-size: 50%; } }
 
 body {
   box-sizing: border-box; }
@@ -169,6 +184,12 @@ body {
     margin: 0 2rem;
     padding: .5rem;
     /* media query at 700px and below  remove margin and add left/right padding of .5rem */ }
+
+@media (max-width: 1000px) {
+  .navbar {
+    display: flex;
+    justify-content: center;
+    margin: 0; } }
 
 .background {
   background-image: linear-gradient(to right bottom, #4a148c, #6a1b9a), url("./../images/kelly-kiernan-776658-unsplash.jpg");

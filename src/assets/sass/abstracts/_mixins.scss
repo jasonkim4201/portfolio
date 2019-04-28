@@ -1,3 +1,29 @@
 @mixin purpleGradient {
   background-image: linear-gradient(to right bottom, $color-purple, $color-blue-dark);
 }
+
+// MEDIA QUERIES HERE
+/* 
+ 0 - 600px:       Phone
+ 600 - 900px:     Tablet portrait
+ 900 - 1200px:    Tablet landscape
+[1200 - 1800px]:  Normal styling
+ 1800px+ :        Desktop big screen
+
+1 em = 16px
+*/
+
+@mixin repsonsive($breakpoint) {
+  @if $breakpoint == phone {
+    @media (max-width: 48em) {@content}; // 37.5em = 600px annnd im using at max 768px
+  }
+  @if $breakpoint == tab-port {
+    @media (max-width: 62.5em) {@content}; //56.25em = 900px but im using at 1000-px here
+  }
+  @if $breakpoint == tab-land {
+    @media (max-width: 75em) {@content}; // 75em = 1200px
+  }
+  @if $breakpoint == big-desktop {
+    @media (min-width: 112.5em) {@content}; // 112.5 em = 1800px
+  }
+}
