@@ -1,0 +1,24 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin: 1rem .3rem;
+  border-radius: 10rem;
+  text-decoration: none;
+  color: $color-white;
+  border: none;
+  cursor: pointer;
+  
+  }
+
+  
+  &--red {
+    background-color: $color-blue-dark-2;
+  }
+
+  &--blue {
+    background-color: $color-blue-dark-3;
+  }
+}

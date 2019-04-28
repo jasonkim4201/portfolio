@@ -42,6 +42,22 @@ body {
   margin: 5rem 5rem 0 5rem;
   padding: 2rem; }
 
+.btn, .btn:link, .btn:visited {
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin: 1rem .3rem;
+  border-radius: 10rem;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  cursor: pointer; }
+
+.btn--red {
+  background-color: #2962ff; }
+
+.btn--blue {
+  background-color: #304ffe; }
+
 .card {
   /* perspective must be in parent element */
   perspective: 100rem;
@@ -108,6 +124,7 @@ body {
     box-decoration-break: clone;
     background-image: linear-gradient(to right bottom, rgba(86, 67, 250, 0.85), rgba(26, 35, 126, 0.85)); }
   .card__text {
+    color: #fff;
     text-align: center;
     width: 75%;
     margin: 0 auto;
@@ -119,6 +136,14 @@ body {
   .card__side ul {
     list-style: none;
     margin: 0 auto; }
+  .card__details {
+    font-size: 1.5rem;
+    color: #fff; }
+    .card__details p {
+      padding: 0 3rem; }
+    .card__details--container {
+      display: flex;
+      justify-content: center; }
 
 .navbar {
   /* background-color: $color-blue-light; */
