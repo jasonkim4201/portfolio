@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/linea-basic-10.177764ea.svg"
   },
   {
-    "revision": "a9c8a1f14e132ca6f625",
+    "revision": "a5e47959c459c8d6a04c",
     "url": "/portfolio/static/css/main.ae2bc201.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/linea-basic-10.e6763f00.ttf"
   },
   {
-    "revision": "a9c8a1f14e132ca6f625",
-    "url": "/portfolio/static/js/main.53fd44e2.chunk.js"
+    "revision": "a5e47959c459c8d6a04c",
+    "url": "/portfolio/static/js/main.4a9074d5.chunk.js"
   },
   {
     "revision": "b16556b48d6daa9f0d26a16638f683d1",
@@ -44,12 +44,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/depositphotos_52458995-stock-photo-global-finance.7f518e7f.jpg"
   },
   {
-    "revision": "0bc21b12a8cdf295c5aa6f11bb223c5c",
-    "url": "/portfolio/static/media/cold-liquid-bar-foam-celebration-beverage-495781-pxhere.com.0bc21b12.jpg"
-  },
-  {
     "revision": "6b07bea7493d4635d77a7946cfb04637",
     "url": "/portfolio/static/media/lobster-nebula-1920628_1920.6b07bea7.jpg"
+  },
+  {
+    "revision": "0bc21b12a8cdf295c5aa6f11bb223c5c",
+    "url": "/portfolio/static/media/cold-liquid-bar-foam-celebration-beverage-495781-pxhere.com.0bc21b12.jpg"
   },
   {
     "revision": "d8631c5e3e343c2d962091d98add4e88",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/alcohol-alcoholism-ale-background-bar-beer-1457325-pxhere.com.35fd5f33.jpg"
   },
   {
-    "revision": "6e3e496915c8643bda67e0f18a715c36",
+    "revision": "72460accb2d11ab736414503ef1378f1",
     "url": "/portfolio/index.html"
   }
 ];
