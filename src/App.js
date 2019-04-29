@@ -13,11 +13,11 @@ class App extends Component {
   render() {
     let routes = (
       <Switch>
-            <Route exact path={process.env.PUBLIC_URL + "/"} component={Home}/>
-            <Route exact path={process.env.PUBLIC_URL + "/about"} component={About}/>
-            <Route exact path={process.env.PUBLIC_URL + "/skills"} component={Skills} />
-            <Route expact path={process.env.PUBLIC_URL + "/projects"} component={Projects}/>
-            <Route expact path={process.env.PUBLIC_URL + "/contact"} component={Contact}/>
+            <Route exact path="/" component={Home}/>
+            <Route exact path="/about" component={About}/>
+            <Route exact path="/skills" component={Skills} />
+            <Route expact path="/projects" component={Projects}/>
+            <Route expact path="/contact" component={Contact}/>
           </Switch>
     );
     return (
