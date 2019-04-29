@@ -2,8 +2,10 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jasonkim4201.github.io/portfolio",
   "dependencies": {
-    "node-sass": "^4.11.0",
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^6.0.1",
@@ -17,7 +19,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "compile:sass": "node-sass ./src/assets/sass/main.scss ./src/assets/css/style.css -w"
+    "compile:sass": "node-sass ./src/assets/sass/main.scss ./src/assets/css/style.css -w",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
