@@ -8,7 +8,7 @@
 
   &__container {
     /* media query 1200px and below width of 75% */
-    height: 45rem;
+    height: 50rem;
     width: 66%;
     background-color: $color-grey-light-2;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .85);
@@ -56,5 +56,17 @@
     grid-gap: 1.5rem;
     /* margin: 0 2rem;
     padding: 10rem; */
+  }
+}
+
+@media (max-width: 40.625em) {
+  .contact {
+    &__container {
+      margin: 20rem 5rem 0 5rem;
+      height: 72rem;
+    }
+    &__info {
+      @include responsiveGrid;
+    }
   }
 }

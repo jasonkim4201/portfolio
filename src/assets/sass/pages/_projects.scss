@@ -9,5 +9,11 @@
 
   }
 
-  
+  @media (max-width: 40.625em) {
+    .projects {
+      &__works {
+        @include responsiveGrid;
+      }
+    }
+  }
 }

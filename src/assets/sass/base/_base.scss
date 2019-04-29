@@ -24,14 +24,15 @@ html {
 
 body {
   box-sizing: border-box;
+  background-image: linear-gradient(to right bottom, $color-purple, $color-purple-2), url("./../images/kelly-kiernan-776658-unsplash.jpg");
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
 }
 
 @media (max-width: 40.625em) {
   body {
-    /* background-color: $color-blue-steel; */
-    background-image: linear-gradient(to right bottom, $color-purple, $color-purple-2), url("./../images/kelly-kiernan-776658-unsplash.jpg");
-    background-blend-mode: overlay;
-    background-size: cover;
+    
     // hmm i kind of like how it looks not centered in smaller screens...
     /* background-position: center; */
   }

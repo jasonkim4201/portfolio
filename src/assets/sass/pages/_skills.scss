@@ -31,3 +31,16 @@
     margin-bottom: 1rem;
   }
 }
+
+@media (max-width: 34.5em) {
+  .skills {
+    &__skillset {
+      @include responsiveGrid;
+    }
+
+    &__inProgress {
+      @include responsiveGrid;
+    }
+  }
+}
+

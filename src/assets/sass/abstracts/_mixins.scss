@@ -2,6 +2,14 @@
   background-image: linear-gradient(to right bottom, $color-purple, $color-blue-dark);
 }
 
+// GRID
+@mixin responsiveGrid {
+  grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+}
+
+
+
 // MEDIA QUERIES HERE
 /* 
  0 - 600px:       Phone
