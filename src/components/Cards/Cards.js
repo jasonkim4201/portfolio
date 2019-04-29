@@ -37,8 +37,8 @@ const Cards = (props) => {
             <br />
             <p>{props.description}</p>
             <div className="card__details--container">
-              <a href={props.demo} className="btn btn--red">Live Demo</a>
-              <a href={props.github} className="btn btn--blue">Github</a>
+              <a href={props.demo} target="_blank" rel="noopener noreferrer" className="btn btn--red">Live Demo</a>
+              <a href={props.github} target="_blank" rel="noopener noreferrer" className="btn btn--blue">Github</a>
             </div>
             
           </div>
