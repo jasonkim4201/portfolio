@@ -8,6 +8,7 @@
 
 1 em = 16px
 */
+/* come back to this later */
 *,
 *::after,
 *::before {
@@ -26,6 +27,16 @@ html {
 
 body {
   box-sizing: border-box; }
+
+@media (max-width: 40.625em) {
+  body {
+    /* background-color: $color-blue-steel; */
+    background-image: linear-gradient(to right bottom, #4a148c, #6a1b9a), url("./../images/kelly-kiernan-776658-unsplash.jpg");
+    background-blend-mode: overlay;
+    background-size: cover;
+    /* background-position: center; */ }
+  .background {
+    background-image: none; } }
 
 body {
   font-family: "Lato", sans-serif;
@@ -195,9 +206,14 @@ body {
   background-image: linear-gradient(to right bottom, #4a148c, #6a1b9a), url("./../images/kelly-kiernan-776658-unsplash.jpg");
   background-blend-mode: overlay;
   background-size: cover;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-position: center;
   height: 100vh; }
+
+@media (max-width: 40.625em) {
+  .background {
+    background-image: none;
+    overflow-x: hidden; } }
 
 .home {
   font-size: 3rem;
@@ -207,7 +223,8 @@ body {
   align-items: center;
   justify-content: center;
   height: 50rem;
-  text-align: center; }
+  text-align: center;
+  margin: 3rem; }
   .home__description {
     font-size: 2rem; }
 
@@ -217,14 +234,32 @@ body {
 .about__header {
   font-size: 3.5rem; }
 
-.about__pic {
-  height: 31rem;
-  width: 31rem;
-  margin: 0 3rem 0 0;
-  float: left; }
+.about__info {
+  /* display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 2rem; */
+  display: flex; }
+  .about__info--pic {
+    height: 25rem;
+    width: 25rem;
+    margin: 0 3rem 1rem 0; }
+  .about__info--bio {
+    font-size: 1.8rem;
+    width: 75%; }
 
-.about__bio {
-  font-size: 1.8rem; }
+@media (max-width: 40.625em) {
+  .about__header {
+    text-align: center; }
+  .about__info {
+    flex-direction: column;
+    justify-content: center; }
+    .about__info--pic {
+      margin-bottom: 1rem;
+      float: none;
+      margin: 1rem auto; }
+    .about__info--bio {
+      margin: auto;
+      text-align: center; } }
 
 .contact {
   height: 88vh;

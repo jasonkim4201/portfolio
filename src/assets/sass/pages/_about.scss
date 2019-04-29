@@ -2,19 +2,57 @@
 
   &__container {
     background-color: $color-blue-steel;
+
   }
+
   &__header {
     font-size: 3.5rem;
   }
 
-  &__pic {
-    height: 31rem;
-    width: 31rem;
-    margin: 0 3rem 0 0;
-    float: left;
+  &__info {
+    /* display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 2rem; */
+    display: flex;
+
+    &--pic {
+      height: 25rem;
+      width: 25rem;
+      margin: 0 3rem 1rem 0;
+
+    }
+
+    &--bio {
+      font-size: 1.8rem;
+      width: 75%;
+    }
   }
 
-  &__bio {
-    font-size: 1.8rem;
+
+}
+
+@media (max-width: 40.625em) {
+  .about {
+    &__container {}
+
+    &__header {
+      text-align: center;
+    }
+
+    &__info {
+      flex-direction: column;
+      justify-content: center;
+
+      &--pic {
+        margin-bottom: 1rem;
+        float: none;
+        margin: 1rem auto; 
+      }
+      &--bio {
+        margin: auto;
+        text-align: center;
+      }
+    }
+
   }
 }

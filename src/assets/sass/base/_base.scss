@@ -10,17 +10,33 @@ html {
   // used to make rem units easier
   font-size: 62.5%;
 
-  
+
 
   @include repsonsive(tab-port) {
     font-size: 55%;
   }
-@include repsonsive(phone) {
+
+  @include repsonsive(phone) {
     font-size: 50%;
   }
-  
+
 }
 
 body {
   box-sizing: border-box;
+}
+
+@media (max-width: 40.625em) {
+  body {
+    /* background-color: $color-blue-steel; */
+    background-image: linear-gradient(to right bottom, $color-purple, $color-purple-2), url("./../images/kelly-kiernan-776658-unsplash.jpg");
+    background-blend-mode: overlay;
+    background-size: cover;
+    // hmm i kind of like how it looks not centered in smaller screens...
+    /* background-position: center; */
+  }
+
+  .background {
+    background-image: none;
+  }
 }
