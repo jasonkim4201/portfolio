@@ -7,13 +7,10 @@ const isIE = /*@cc_on!@*/false || !!document.documentMode;
 // Edge 20+
 const isEdge = !isIE && !!window.StyleMedia;
 
-if (isEdge) {
-	alert("Woah there! Seems like you are using Internet Explorer or Edge. That's great and all but this site works best on Chrome or Firefox and I put in a lot of effort into making this site with custom CSS which Edge and IE still has not implemented yet. For best user experience please come back in Chrome or Firefox.\n https://www.youtube.com/watch?v=aYmOqPFyJPw"); //honestly how I feel about ie and edge
+if (isEdge || isIE) {
+	alert("Woah there! Seems like you are using Internet Explorer or Edge. That's great and all but this site works best on Chrome or Firefox and I put in a lot of effort into making this site with custom CSS which Edge and IE still has not implemented yet. For best user experience please come back in Chrome or Firefox. It would totally be a shame for you not to be able to view these recent CSS features!"); // ie is cancer why is it still thing in 2019
 }
 
-if (isIE) {
-  alert("Are...you using Internet Explorer in 2019? Why are you the way that you are? Honestly, every time I try to do something fun or exciting, you make it not that way. I hate so much about the things that you choose to be.");
-}
 const Home = (props) => (
   
   <section className="home">

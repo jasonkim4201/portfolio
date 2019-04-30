@@ -1,7 +1,7 @@
 .about {
 
   &__container {
-    background-color: $color-blue-steel;
+    @include purpleGradient;
 
   }
 

@@ -233,7 +233,7 @@ body {
     font-size: 2rem; }
 
 .about__container {
-  background-color: rgba(26, 35, 126, 0.93); }
+  background-image: linear-gradient(to right bottom, #4a148c, #5643fa); }
 
 .about__header {
   font-size: 3.5rem; }
@@ -276,7 +276,7 @@ body {
     /* media query 1200px and below width of 75% */
     height: 50rem;
     width: 66%;
-    background-color: #eee;
+    background-image: linear-gradient(to right bottom, #4a148c, #5643fa);
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.85); }
   .contact__card {
     display: flex;
