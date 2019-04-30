@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/linea-basic-10.177764ea.svg"
   },
   {
-    "revision": "a5e47959c459c8d6a04c",
-    "url": "/portfolio/static/css/main.ae2bc201.chunk.css"
+    "revision": "34d3dee554afcb540d6b",
+    "url": "/portfolio/static/css/main.ff986437.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -24,16 +24,16 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/linea-basic-10.61f3a8a3.woff"
   },
   {
-    "revision": "e6763f008205c55db623cdf68bbd581f",
-    "url": "/portfolio/static/media/linea-basic-10.e6763f00.ttf"
-  },
-  {
     "revision": "e4de528c00da0c081906c3caea289f0f",
     "url": "/portfolio/static/media/linea-basic-10.e4de528c.eot"
   },
   {
-    "revision": "a5e47959c459c8d6a04c",
-    "url": "/portfolio/static/js/main.4a9074d5.chunk.js"
+    "revision": "e6763f008205c55db623cdf68bbd581f",
+    "url": "/portfolio/static/media/linea-basic-10.e6763f00.ttf"
+  },
+  {
+    "revision": "34d3dee554afcb540d6b",
+    "url": "/portfolio/static/js/main.d9929d7e.chunk.js"
   },
   {
     "revision": "b16556b48d6daa9f0d26a16638f683d1",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/alcohol-alcoholism-ale-background-bar-beer-1457325-pxhere.com.35fd5f33.jpg"
   },
   {
-    "revision": "72460accb2d11ab736414503ef1378f1",
+    "revision": "8581e365fa72ee2b304ef6102970f142",
     "url": "/portfolio/index.html"
   }
 ];
