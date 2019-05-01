@@ -245,7 +245,7 @@ body {
   display: flex; }
   .about__info--pic {
     height: 25rem;
-    width: 25rem;
+    width: 20rem;
     margin: 0 3rem 1rem 0; }
   .about__info--bio {
     font-size: 1.8rem;
@@ -316,7 +316,7 @@ body {
 
 .skills__container {
   font-size: 1.5rem;
-  background-color: rgba(26, 35, 126, 0.93); }
+  background-image: linear-gradient(to right bottom, #4a148c, #5643fa); }
 
 .skills__title {
   font-size: 2.7rem; }

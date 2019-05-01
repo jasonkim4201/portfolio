@@ -1,6 +1,6 @@
 //  list stuff about my self and area for pic
 import React from "react";
-import myPicture from "../../assets/images/pic.jpg";
+import myPicture from "../../assets/images/20190501_122146.jpg";
 
 const About = () => {
   return (
