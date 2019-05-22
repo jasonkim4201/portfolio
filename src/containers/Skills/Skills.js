@@ -25,7 +25,7 @@ const Skills = (props) => {
 
         <div className="skills__inProgress">
           <Skillset classProp="fas fa-code" type="Languages" typeName="Python, Java, C#" />
-          <Skillset classProp="icon-basic-server2" type="Backend" typeName="GrahpQL" />
+          <Skillset classProp="icon-basic-server2" type="Backend" typeName="GraphQL" />
           <Skillset classProp="icon-basic-folder-multiple" type="Frameworks/Libraries" typeName="Angular, Vue.js" />
         
         </div>
