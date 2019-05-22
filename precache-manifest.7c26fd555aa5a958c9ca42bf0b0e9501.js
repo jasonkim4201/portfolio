@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/linea-basic-10.177764ea.svg"
   },
   {
-    "revision": "e28af4a787bbbb289597",
-    "url": "/portfolio/static/css/main.89bcba05.chunk.css"
+    "revision": "feae11e4035f3c1af262",
+    "url": "/portfolio/static/css/main.dbfea0ce.chunk.css"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -24,16 +24,16 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/linea-basic-10.61f3a8a3.woff"
   },
   {
-    "revision": "e4de528c00da0c081906c3caea289f0f",
-    "url": "/portfolio/static/media/linea-basic-10.e4de528c.eot"
-  },
-  {
     "revision": "e6763f008205c55db623cdf68bbd581f",
     "url": "/portfolio/static/media/linea-basic-10.e6763f00.ttf"
   },
   {
-    "revision": "e28af4a787bbbb289597",
-    "url": "/portfolio/static/js/main.aca352a3.chunk.js"
+    "revision": "e4de528c00da0c081906c3caea289f0f",
+    "url": "/portfolio/static/media/linea-basic-10.e4de528c.eot"
+  },
+  {
+    "revision": "feae11e4035f3c1af262",
+    "url": "/portfolio/static/js/main.feb89f6a.chunk.js"
   },
   {
     "revision": "b16556b48d6daa9f0d26a16638f683d1",
@@ -44,12 +44,12 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/depositphotos_52458995-stock-photo-global-finance.7f518e7f.jpg"
   },
   {
-    "revision": "0bc21b12a8cdf295c5aa6f11bb223c5c",
-    "url": "/portfolio/static/media/cold-liquid-bar-foam-celebration-beverage-495781-pxhere.com.0bc21b12.jpg"
-  },
-  {
     "revision": "6b07bea7493d4635d77a7946cfb04637",
     "url": "/portfolio/static/media/lobster-nebula-1920628_1920.6b07bea7.jpg"
+  },
+  {
+    "revision": "0bc21b12a8cdf295c5aa6f11bb223c5c",
+    "url": "/portfolio/static/media/cold-liquid-bar-foam-celebration-beverage-495781-pxhere.com.0bc21b12.jpg"
   },
   {
     "revision": "d8631c5e3e343c2d962091d98add4e88",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/alcohol-alcoholism-ale-background-bar-beer-1457325-pxhere.com.35fd5f33.jpg"
   },
   {
-    "revision": "16f2da5db96a5ac675c88ee1c24e59e3",
+    "revision": "1a88e3612704ccb7c258e1df58f04f5c",
     "url": "/portfolio/index.html"
   }
 ];
