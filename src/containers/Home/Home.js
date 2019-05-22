@@ -8,7 +8,7 @@ const isIE = /*@cc_on!@*/false || !!document.documentMode;
 const isEdge = !isIE && !!window.StyleMedia;
 
 if (isEdge || isIE) {
-	alert("Woah there! Seems like you are using Internet Explorer or Edge. That's great and all but this site works best on Chrome or Firefox and I put in a lot of effort into making this site with custom CSS which Edge and IE still has not implemented yet. For best user experience please come back in Chrome or Firefox. It would totally be a shame for you not to be able to view these recent CSS features!"); // ie is cancer why is it still thing in 2019
+	alert("Woah there! Seems like you are using Internet Explorer or Edge. That's great and all but this site works best on Chrome or Firefox and I put in a lot of effort into making this site with custom CSS which Edge and IE still has not implemented yet. For best user experience please come back in Chrome or Firefox. It would totally be a shame for you not to be able to view these recent CSS features!");
 }
 
 const Home = (props) => (
